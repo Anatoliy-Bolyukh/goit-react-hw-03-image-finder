@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Anatoliy-Bolyukh.github.io/goit-react-hw-03-image-finder/static/css/main.7acaea2f.css",
-    "main.js": "/Anatoliy-Bolyukh.github.io/goit-react-hw-03-image-finder/static/js/main.07d3183d.js",
+    "main.css": "/Anatoliy-Bolyukh.github.io/goit-react-hw-03-image-finder/static/css/main.afb2dea9.css",
+    "main.js": "/Anatoliy-Bolyukh.github.io/goit-react-hw-03-image-finder/static/js/main.891fd173.js",
     "index.html": "/Anatoliy-Bolyukh.github.io/goit-react-hw-03-image-finder/index.html",
-    "main.7acaea2f.css.map": "/Anatoliy-Bolyukh.github.io/goit-react-hw-03-image-finder/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/Anatoliy-Bolyukh.github.io/goit-react-hw-03-image-finder/static/js/main.07d3183d.js.map"
+    "main.afb2dea9.css.map": "/Anatoliy-Bolyukh.github.io/goit-react-hw-03-image-finder/static/css/main.afb2dea9.css.map",
+    "main.891fd173.js.map": "/Anatoliy-Bolyukh.github.io/goit-react-hw-03-image-finder/static/js/main.891fd173.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.afb2dea9.css",
+    "static/js/main.891fd173.js"
   ]
 }
