@@ -1,35 +1,43 @@
 // import { editableInputTypes } from '@testing-library/user-event/dist/utils';
 import { Component } from 'react';
+import { toast } from 'react-toastify';
 
 class Seachbar extends Component {
   state = {
-    name: '',
+    gallery: '',
   };
 
   handleNameChange = event => {
-    this.setState({ name: event.currentTarget.value.toLowerCase() });
+    this.setState({ gallery: event.currentTarget.value.toLowerCase() });
   };
 
   handleSubmite = event => {
-      event.preventDefault();
-      
-      this.props.onSubmit()
+    event.preventDefault();
+
+    if (this.state.gallery.trim() === '') {
+      toast('🦄 Wow so easy!');
+      return;
+    }
+    this.props.onSubmit(this.state.gallery);
+    this.setState({ gallery: '' });
   };
 
   render() {
     return (
       <header className="Searchbar">
-        <form className="SearchForm">
-          <button type="submit" class="Button">
+        <form className="SearchForm" onSubmit={this.handleSubmite}>
+          <button type="submit" className="Button">
             <span className="button-label">Search</span>
           </button>
 
           <input
             className="input"
             type="text"
-            autocomplete="off"
-            autofocus
+            autoComplete="off"
+            autoFocus
             placeholder="Search images and photos"
+            value={this.gallery}
+            onChange={this.handleNameChange}
           />
         </form>
       </header>
@@ -37,5 +45,4 @@ class Seachbar extends Component {
   }
 }
 
-
-export default Seachbar
+export default Seachbar;
