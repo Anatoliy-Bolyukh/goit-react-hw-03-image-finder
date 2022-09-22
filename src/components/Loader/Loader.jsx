@@ -1,4 +1,5 @@
 import { Dna } from 'react-loader-spinner';
+import s from './loader.module.css';
 const Loader = () => {
   return (
     <Dna
@@ -7,7 +8,7 @@ const Loader = () => {
       width="250"
       ariaLabel="dna-loading"
       wrapperStyle={{}}
-      wrapperClass="dna-wrapper"
+      wrapperClass={s.spinerStyle}
       />
   );
 };
