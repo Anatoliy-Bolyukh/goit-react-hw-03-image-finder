@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Anatoliy-Bolyukh.github.io/goit-react-hw-03-image-finder/static/css/main.7875f440.css",
-    "main.js": "/Anatoliy-Bolyukh.github.io/goit-react-hw-03-image-finder/static/js/main.2f96a476.js",
+    "main.js": "/Anatoliy-Bolyukh.github.io/goit-react-hw-03-image-finder/static/js/main.00188058.js",
     "index.html": "/Anatoliy-Bolyukh.github.io/goit-react-hw-03-image-finder/index.html",
     "main.7875f440.css.map": "/Anatoliy-Bolyukh.github.io/goit-react-hw-03-image-finder/static/css/main.7875f440.css.map",
-    "main.2f96a476.js.map": "/Anatoliy-Bolyukh.github.io/goit-react-hw-03-image-finder/static/js/main.2f96a476.js.map"
+    "main.00188058.js.map": "/Anatoliy-Bolyukh.github.io/goit-react-hw-03-image-finder/static/js/main.00188058.js.map"
   },
   "entrypoints": [
     "static/css/main.7875f440.css",
-    "static/js/main.2f96a476.js"
+    "static/js/main.00188058.js"
   ]
 }
