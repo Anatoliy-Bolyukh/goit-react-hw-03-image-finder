@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
 
-const ImageGalleryItem = ({ webformatURL, largeImageURL, openModal, tags }) => {
+const ImageGalleryItem = ({ id, webformatURL, largeImageURL, openModal, tags }) => {
     return (
       
-    <li className="imageGalleryItem">
+    <li key={id} className="imageGalleryItem">
       <img className="imageGalleryItemImage"
         src={webformatURL}
         alt={tags}
